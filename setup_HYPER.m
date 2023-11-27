@@ -1,5 +1,5 @@
 %% main
-function [ output ] = RUN_main ( HP, DE, Q, EffCurves )
+function [ output ] = setup_HYPER ( HP, DE, Q, EffCurves )
 
 
 %%

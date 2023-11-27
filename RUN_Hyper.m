@@ -2,7 +2,7 @@
 clc;
 clear;
 
-%% Model inputs, project-based parameters  that change from one another
+% Model inputs, project-based parameters  that change from one another
 O = load('input.txt');
 
 HP.MFD = 0.63; % the minimum environmental flow (m3/s)
@@ -36,5 +36,5 @@ HP.opscheme = 1; % 1 = 1 small + identical, 2 = all identical, 3 = all varied
 
 tic
 HP.Objective = 1; % 1: NPV, 2: BC
-output = RUN_main ( HP, DE, O, EffCurves);
+output = setup_HYPER ( HP, DE, O, EffCurves);
 toc

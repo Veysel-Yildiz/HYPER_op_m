@@ -3,7 +3,6 @@ This repository contains the HYPER_OP Toolbox is a state-of-the-art toolbox for 
 The first methodology presented in the paper by  V. Yildizang J. Vrugt "A toolbox for the optimal design of run-of-river hydropower plants" published in EMS
 
 
-What's New in this Version
 In this latest version of the HYPER_OP Toolbox, we have introduced several exciting novelties and enhancements:
 
 Operation Optimization with Design Flexibility
